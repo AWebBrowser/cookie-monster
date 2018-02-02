@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+body{
+	font-family:'Cookie';
+	text-align:center;
+	-webkit-animation:rainbow 20s infinite;
+	-ms-animation:rainbow 20s infinite;
+	-o-animation:rainbow 20s infinite;
+	animation:rainbow 20s infinite;
+	background-image: url("https://thumbs.dreamstime.com/b/light-brown-gradient-background-abstract-59104821.jpg") repeat, infinite;
+}
+#imgOne{
+	height:250px;
+	width:250px;
+}
+#imgTwo{
+	height:250px;
+	width:250px;
+}
+#imgThree{
+	height:250px;
+	width:250px;
+}
+#imgFour{
+	height:250px;
+	width:250px;
+}
+body{
+
+}
+@-webkit-keyframes rainbow {
+0% {color: #af0000;}
+10% {color: #fa8000;}
+20% {color: #0f0f00;}
+30% {color: #60fd00;}
+40% {color: #00fa00;}
+50% {color: #00fa60;}
+60% {color: #005c94;}
+70% {color: #0060fa;}
+80% {color: #0000fa;}
+90% {color: #6000fa;}
+100% {color: #ff0060;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #005cff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #005cff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #005cff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+#two{
+	list-style-type:none;
+}
+nav{
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    text-align: left;
+}
+h4{
+	font-size:1.5em;
+}
+#instagram{
+	height: 50px;
+	width: 50px;
+}
+#about-us{
+	display: inline-block;
+}
